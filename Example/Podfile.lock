@@ -1,0 +1,187 @@
+PODS:
+  - AFNetworking (3.1.0.1):
+    - AFNetworking/NSURLSession (= 3.1.0.1)
+    - AFNetworking/Reachability (= 3.1.0.1)
+    - AFNetworking/Security (= 3.1.0.1)
+    - AFNetworking/Serialization (= 3.1.0.1)
+    - AFNetworking/UIKit (= 3.1.0.1)
+  - AFNetworking/NSURLSession (3.1.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0.1)
+  - AFNetworking/Security (3.1.0.1)
+  - AFNetworking/Serialization (3.1.0.1)
+  - AFNetworking/UIKit (3.1.0.1):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.4.1):
+    - CocoaLumberjack/Default (= 3.4.1)
+    - CocoaLumberjack/Extensions (= 3.4.1)
+  - CocoaLumberjack/Default (3.4.1)
+  - CocoaLumberjack/Extensions (3.4.1):
+    - CocoaLumberjack/Default
+  - CocoaSecurity (1.2.4.2)
+  - ICTextView (2.0.1)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0.1)
+  - NSHash (1.1.0.1)
+  - ReactiveObjC (2.1.0.5)
+  - TDFAPIHUDPresenter (1.1.6):
+    - Masonry
+    - MBProgressHUD (~> 1.0)
+    - TDFAPIKit (~> 1.0)
+    - TDFCategories
+  - TDFAPIKit (1.2.11):
+    - TDFCategories (~> 2.0)
+    - TDFNetworking (~> 0.6)
+  - TDFAPILogger (0.0.9):
+    - AFNetworking
+  - TDFBaseInfoKit (0.2.4)
+  - TDFBossBaseInfoDefaults (0.2.6):
+    - TDFBossBaseInfoDefaults/Core (= 0.2.6)
+    - TDFBossBaseInfoDefaults/Initializer (= 0.2.6)
+  - TDFBossBaseInfoDefaults/Core (0.2.6):
+    - TDFBaseInfoKit
+  - TDFBossBaseInfoDefaults/Initializer (0.2.6):
+    - TDFBossBaseInfoDefaults/Core
+    - TDFModuleKit
+    - TDFNetworking
+  - TDFCategories (2.0.18):
+    - TDFCategories/NSBundle (= 2.0.18)
+    - TDFCategories/NSData (= 2.0.18)
+    - TDFCategories/NSDictionay (= 2.0.18)
+    - TDFCategories/NSMutableArray (= 2.0.18)
+    - TDFCategories/NSString (= 2.0.18)
+    - TDFCategories/UIButton (= 2.0.18)
+    - TDFCategories/UICollectionReusableView (= 2.0.18)
+    - TDFCategories/UICollectionViewCell (= 2.0.18)
+    - TDFCategories/UIColor (= 2.0.18)
+    - TDFCategories/UIImage (= 2.0.18)
+    - TDFCategories/UILabel (= 2.0.18)
+    - TDFCategories/UIScrollView (= 2.0.18)
+    - TDFCategories/UITableViewCell (= 2.0.18)
+    - TDFCategories/UITableViewHeaderFooterView (= 2.0.18)
+    - TDFCategories/UIView (= 2.0.18)
+    - TDFCategories/UIViewController (= 2.0.18)
+  - TDFCategories/NSBundle (2.0.18)
+  - TDFCategories/NSData (2.0.18)
+  - TDFCategories/NSDictionay (2.0.18)
+  - TDFCategories/NSMutableArray (2.0.18)
+  - TDFCategories/NSString (2.0.18):
+    - TDFDataCenterKit
+  - TDFCategories/UIButton (2.0.18)
+  - TDFCategories/UICollectionReusableView (2.0.18)
+  - TDFCategories/UICollectionViewCell (2.0.18)
+  - TDFCategories/UIColor (2.0.18)
+  - TDFCategories/UIImage (2.0.18)
+  - TDFCategories/UILabel (2.0.18)
+  - TDFCategories/UIScrollView (2.0.18)
+  - TDFCategories/UITableViewCell (2.0.18)
+  - TDFCategories/UITableViewHeaderFooterView (2.0.18)
+  - TDFCategories/UIView (2.0.18)
+  - TDFCategories/UIViewController (2.0.18)
+  - TDFCoreProtocol (1.2.6)
+  - TDFDataCenterKit (0.2.5)
+  - TDFDataDrivenKit (0.1.3):
+    - Masonry
+    - TDFBaseInfoKit
+    - TDFCoreProtocol
+  - TDFHTTPDNSKit (0.0.5):
+    - TDFSecurityKit
+  - TDFHttpProxy (0.1.3):
+    - TDFAPIKit
+    - TDFNetworking
+  - TDFLogger (1.2.1):
+    - TDFLogger/Core (= 1.2.1)
+    - TDFLogger/Initializer (= 1.2.1)
+  - TDFLogger/Core (1.2.1):
+    - CocoaLumberjack (~> 3.0)
+  - TDFLogger/Initializer (1.2.1):
+    - TDFLogger/Core
+    - TDFModuleKit
+  - TDFLoginAssistant/Core (1.12.6):
+    - CocoaSecurity
+    - Masonry
+    - ReactiveObjC
+    - TDFAPIHUDPresenter (~> 1.0)
+    - TDFAPIKit (~> 1.0)
+    - TDFBaseInfoKit
+    - TDFCategories
+    - TDFDataCenterKit
+    - TDFLogger
+    - TDFMacroSubstituteKit
+    - TDFNetworking
+    - YYModel
+  - TDFLoginAssistant/Entry (1.12.6):
+    - TDFLoginAssistant/Core
+  - TDFLoginAssistant/Login (1.12.6):
+    - TDFLoginAssistant/Entry
+    - TDFLoginAssistant/NetworkEnvironmentSwitcher
+  - TDFLoginAssistant/NetworkEnvironmentSwitcher (1.12.6):
+    - TDFLoginAssistant/Entry
+    - TDFNetworkEnvironmentSwitcher
+  - TDFMacroSubstituteKit (0.1.0)
+  - TDFModuleKit (1.0.5)
+  - TDFNetworkEnvironmentSwitcher (0.4.5):
+    - TDFBaseInfoKit (~> 0.2)
+    - TDFNetworking (~> 0.6)
+    - YYModel (~> 1.0)
+  - TDFNetworking (0.6.4):
+    - AFNetworking
+    - CocoaSecurity
+    - NSHash
+    - TDFDataCenterKit
+    - TDFHTTPDNSKit
+  - TDFScreenDebugger (0.0.8):
+    - ICTextView
+    - Masonry
+    - ReactiveObjC
+    - TDFAPILogger
+  - TDFSecurityKit (0.1.0)
+  - YYModel (1.0.4.2)
+
+DEPENDENCIES:
+  - TDFBossBaseInfoDefaults
+  - TDFDataDrivenKit (from `../`)
+  - TDFHttpProxy
+  - TDFLoginAssistant/Login
+  - TDFNetworkEnvironmentSwitcher
+  - TDFScreenDebugger
+
+EXTERNAL SOURCES:
+  TDFDataDrivenKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 032062ffb24bf902c3040070304569831ee6eeea
+  CocoaLumberjack: 3c886aa76d56528b0482320c2549c925adb67fd2
+  CocoaSecurity: b61a06b3567d9a817ea2fe457cbe691669886288
+  ICTextView: 242cb1eed94ee47315e8e70002b5f2adb8237a75
+  Masonry: 6a45eb6ec323ea1660ce48cb3381117c716560f5
+  MBProgressHUD: 51126d6c82778b4a5fa3636f6e91ff1a2bd5a2c4
+  NSHash: 2061df4462dde0b8583dbcc620eaf80b227dd845
+  ReactiveObjC: '08a8aad8a26260977c2daaaa0d82448ec119295f'
+  TDFAPIHUDPresenter: 413baca182dae95f35baa48bbbf48bfcb7573630
+  TDFAPIKit: 7660c09ca03946b73d21117ddf585183a68f307e
+  TDFAPILogger: 3d5a50be0d171a0142fff10bd1f8e34ecc309812
+  TDFBaseInfoKit: '099ce717a89d9033a3cab9e4da90749956aeb447'
+  TDFBossBaseInfoDefaults: 36849bedff1de632fca458236bb362014f4f3281
+  TDFCategories: cdf16235e1a5b2fb763acab1853c9a730a4e59b5
+  TDFCoreProtocol: 5e43b3de77e8322f113cc641e196ef4f635b46d5
+  TDFDataCenterKit: 14af110a1c826196099b9f91e550fb4263ad9177
+  TDFDataDrivenKit: ed62deedc1b1915ac684b1a4afd449494e9180f5
+  TDFHTTPDNSKit: dd45426f9aff78a1139d45facd4003761dfaf6df
+  TDFHttpProxy: 72743ed67f2bc70897aab2f32eac6eee45f85fdf
+  TDFLogger: bb51c6a7adfda4b978162dddb87d8aa042820d85
+  TDFLoginAssistant: 44b75efe7319300563e2aaf433fb034bc573751b
+  TDFMacroSubstituteKit: 4ebfacd2d1f056214457f46428be5f78d979e7db
+  TDFModuleKit: 7d90beb932577c73730cd32c15b1305ff0b09d8a
+  TDFNetworkEnvironmentSwitcher: 72cd572edfec9781a58729b32d201a8b4f6869b8
+  TDFNetworking: c6ea900ccce75fe715c74c9675092c56fb2ad771
+  TDFScreenDebugger: ffcfd28e12c927e6900da0d5c43d6b450d34328f
+  TDFSecurityKit: 6c9f8923c6bcfc3ba5083f212a36862598f97c8b
+  YYModel: e7c12e5834b520a7b9b2dcb6bd822e0bc546d45c
+
+PODFILE CHECKSUM: 53d209afa27f8fff12c9b9687cbabc1c0082440e
+
+COCOAPODS: 1.2.1
