@@ -16,6 +16,7 @@ TDFDataDrivenKit TDFDataDrivenKit
 
   s.homepage         = 'https://github.com/ny8080/ADDataDrivenKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'hongsang' => 'hongsang@2dfire.com' }
   s.source           = { :git => 'https://github.com/ny8080/ADDataDrivenKit.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
 
